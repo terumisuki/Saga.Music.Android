@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnStopTrackQuitApp"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignRight="@+id/seekBar1"
+        android:text="@string/button_stop_playing" />
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnPausePlay"
+        android:layout_alignParentBottom="true" />
+
+    <Button
+        android:id="@+id/btnNextTrack"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/seekBar1"
+        android:layout_alignLeft="@+id/btnStopTrackQuitApp"
+        android:layout_below="@+id/btnPausePlay"
+        android:text="@string/button_next_track"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:id="@+id/btnPausePlay"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/btnStopTrackQuitApp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

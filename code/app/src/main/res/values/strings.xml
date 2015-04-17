@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">Saga Music</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Saga.Music!</string>
+    <string name="button_play_text">></string>
+    <string name="button_pause_text">||</string>
+    <string name="button_next_track">>></string>
+    <string name="button_stop_playing">stop</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="keyword">keyword</string>
+    <string name="search">search</string>
+    <string name="test1">test 1</string>
+    <string name="test2">test 2</string>
+    <string name="test3">test 3</string>
+    <string name="title_activity_current_settings">CurrentSettingsActivity</string>
+    <string name="title_activity_darwin_percentage">DarwinPercentageActivity</string>
+    <string name="darwin_percentage_edit_text_hint">darwin percentage</string>
+    <string name="button_set_darwin_percentage">set darwin percentage</string>
+
+</resources>
