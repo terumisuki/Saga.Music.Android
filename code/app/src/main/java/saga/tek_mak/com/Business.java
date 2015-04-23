@@ -1,4 +1,4 @@
-package saga.alexwooten.com;
+package saga.tek_mak.com;
 
 import java.io.File;
 import java.util.List;
@@ -6,8 +6,6 @@ import java.util.Random;
 
 import android.media.MediaPlayer;
 import android.os.AsyncTask;
-import android.os.Environment;
-import android.util.Log;
 
 public class Business {
 

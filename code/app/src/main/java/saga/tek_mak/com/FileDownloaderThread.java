@@ -1,4 +1,4 @@
-package saga.alexwooten.com;
+package saga.tek_mak.com;
 
 // Code taken and adapted from:
 //	http://www.hassanpur.com/blog/2011/04/android-development-downloading-a-file-from-the-web/
@@ -12,7 +12,6 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 import android.os.Message;
-import android.util.Log;
 
 public class FileDownloaderThread extends Thread {
     // constants
